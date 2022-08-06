@@ -4,8 +4,8 @@ I've recently bought the Wallpaper Engine and it bugged me that I can't do much 
 Any content that you download from the Steam Workshop belongs to it's respective owners. Do not by any means use this tool to redistribute any content that you do not own or do not have rights to redistribute in any way. I as the creator of the tool am not responsible for any illegal usage of this tool. Just, please, do what you think is right.
 # Building
 ## Windows
-*ugh* MinGW didn't do the job. If you have a way to build it, feel free to create an issue!<br>
-~~You can also use W̶S̶L̶~~
+create a visual studio project with atleast c++ 17.
+copy the main.cpp code into the project and compile.
 ## Linux -DOESNT WORK
 *Or Windows with WSL*<br>
 libraries required:<br>
@@ -34,9 +34,6 @@ Required:<br>
 * Xcode and the Xcode Command Line Tools
 * libboost
 
-## Windows
-create a visual studio project with atleast c++ 17.
-copy the main.cpp code into the project and compile.
 
 # Usage
 1. install Xcode and the Xcode Command Line Tools

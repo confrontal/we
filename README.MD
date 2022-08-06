@@ -6,7 +6,7 @@ Any content that you download from the Steam Workshop belongs to it's respective
 ## Windows
 *ugh* MinGW didn't do the job. If you have a way to build it, feel free to create an issue!<br>
 ~~You can also use W̶S̶L̶~~
-## Linux
+## Linux -DOESNT WORK
 *Or Windows with WSL*<br>
 libraries required:<br>
 * libboost
@@ -28,7 +28,7 @@ Now simply repack it! `./we r scene.pkg`<br>
 Now there's the freshly repacked file!<br>
 ![image](https://i.imgur.com/r3YyzZo.png)
 Copy all of the old files except scene.pkg into a freshly created project and paste in your repacked `scene.pkg`<br><br>
-## MAC
+## MAC - DOESNT WORK
 Required:<br>
 * Macport or Brew (for install libboost)
 * Xcode and the Xcode Command Line Tools
@@ -47,6 +47,12 @@ Required:<br>
 4. `./we x scene.pkg`
 
 5. `./we r scene.pkg`
+
+## Windows
+create a visual studio project with atleast c++ 17.
+copy the main.cpp code into the project and compile.
+
+
 ## That's it!
 Now you've successfully modified and repacked the workshop item. <br>You can now, after all of this, use it as a your wallpaper.<br>
 Thanks for tuning in!
